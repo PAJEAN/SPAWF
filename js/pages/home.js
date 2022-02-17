@@ -7,22 +7,14 @@ try {
 
             <style>
                 @import url(css/style.css);
-                * {
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                }
-
-                #main {
-                    background: rgb(var(--background-color));
-                    color: rgb(var(--on-background-color));
-                    height: calc(100vh - 100px);
-                }
 
                 .container {
                     margin: 100px;
                 }
-                
+
+                a {
+                    color: rgb(var(--on-background-color));
+                }
             </style>
 
             <div id="main">

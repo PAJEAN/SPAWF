@@ -6,19 +6,9 @@ try {
         TEMPLATE.innerHTML = /* html */`
 
             <style>
-                @import url(css/style.css);
-                * {
-                    box-sizing: border-box;
-                    margin: 0;
-                    padding: 0;
-                }
+                @import url('css/style.css');
+                
                 #main {
-                    background: rgb(var(--background-color));
-                    color: rgb(var(--on-background-color));
-                    /* Display */
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
                     /* Position */
                     position: fixed;
                     top: 0;
@@ -29,8 +19,9 @@ try {
                     width: 100%;
                     padding: 0 100px;
                 }
-            </style>        
-            <div id="main">
+            </style>
+
+            <div id="main" class="flex" style="--f__jc: space-between; --f__ai: center">
                 <div>LOGO</div>
                 <div>Accueil</div>
             </div>
