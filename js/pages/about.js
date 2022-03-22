@@ -4,14 +4,12 @@ try {
 
         const TEMPLATE = document.createElement('template');
         TEMPLATE.innerHTML = /* html */`
+            <link rel="stylesheet" href="css/style.css">
 
             <style>
-                @import url(css/style.css);
-
                 .container {
                     margin: 100px;
                 }
-                
             </style>
 
             <div id="main">
