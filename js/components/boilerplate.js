@@ -23,7 +23,9 @@ try {
             }
 
             disconnectedCallback() {}
-			attributeChangedCallback(attrName, oldVal, newVal) {}
+            
+            static get observedAttributes() { return []; }
+			attributeChangedCallback(attrName, oldVal, newVal) {} /* Called for every change to attributes listed in the observedAttributes array */
         });
     })();
 }
