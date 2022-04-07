@@ -23,7 +23,7 @@ try {
             }
 
             disconnectedCallback() {}
-						attributeChangedCallback(attrName, oldVal, newVal) {}
+			attributeChangedCallback(attrName, oldVal, newVal) {}
         });
     })();
 }
